@@ -21,6 +21,7 @@ cleanup:
   - '*.a'
   - '*.la'
 modules:
+  - shared-modules/libusb/libusb.json
   - name: fltk
     sources:
       - type: archive
