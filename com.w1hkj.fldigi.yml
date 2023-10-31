@@ -52,8 +52,8 @@ modules:
   - name: fldigi
     sources:
       - type: archive
-        url: http://www.w1hkj.com/files/fldigi/fldigi-4.2.00.tar.gz
-        sha256: 174f42e91de6120615852eff32a1011737ea18a6f2ac07a6e7ff900e5c08fbd9
+        url: http://www.w1hkj.com/files/fldigi/fldigi-4.2.02.tar.gz
+        sha256: f50386f3c3bd063b4c34d01ac439ff8d41ec1b7c12e3c2c252f307ef3a5a6b9e
         x-checker-data:
           type: anitya
           project-id: 818
