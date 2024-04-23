@@ -42,4 +42,5 @@
    <release version="4.1.18" date="2021-01-29"/>
  </releases>
  <content_rating type="oars-1.1"/>
+ <launchable type="desktop-id">com.w1hkj.fldigi.desktop</launchable>
 </component>
