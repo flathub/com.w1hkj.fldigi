@@ -10,7 +10,7 @@
  <name>Fldigi</name>
  <summary>Amateur Radio Sound Card Communications</summary>
  <developer_name>dave-w1hkj, mdblack98, sb42</developer_name>
- <url type="homepage">http://www.w1hkj.com</url>
+ <url type="homepage">https://www.w1hkj.org</url>
  <description>
   <p>
   Fldigi is a modem program for most of the digital modes
@@ -22,7 +22,7 @@
  </description>
  <screenshots>
   <screenshot type="default">
-   <image>http://www.w1hkj.com/FldigiHelp/FLDigiWindowHtml.png</image>
+   <image>https://www.w1hkj.org/FldigiHelp/FLDigiWindowHtml.png</image>
   </screenshot>
  </screenshots>
  <releases>

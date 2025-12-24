@@ -1,6 +1,6 @@
 app-id: com.w1hkj.fldigi
 runtime: org.freedesktop.Platform
-runtime-version: '24.08'
+runtime-version: '25.08'
 sdk: org.freedesktop.Sdk
 command: fldigi
 finish-args:
@@ -52,12 +52,12 @@ modules:
   - name: fldigi
     sources:
       - type: archive
-        url: http://www.w1hkj.com/files/fldigi/fldigi-4.2.06.tar.gz
-        sha256: 4360de225d6f8cfeb9bb6a5be6ac492e52702c8f704f87609c452d3bcb1b6c08
+        url: https://www.w1hkj.org/files/fldigi/fldigi-4.2.11.tar.gz
+        sha256: 762b370ffe9cae773a2a03b512d0b7242e7e90407c11d5abbd2d31ae6501664f
         x-checker-data:
           type: anitya
           project-id: 818
-          url-template: http://www.w1hkj.com/files/fldigi/fldigi-$version.tar.gz
+          url-template: https://www.w1hkj.org/files/fldigi/fldigi-$version.tar.gz
   - name: metainfo
     buildsystem: simple
     build-commands:
