@@ -1,0 +1,12 @@
+--- a/src/combo/combo.cxx
++++ b/src/combo/combo.cxx
+@@ -519,6 +519,9 @@
+ // the datalist depending on the uniqueness and case comparision specification.
+ void Fl_ComboBox::add( const char *s, void * d)
+ {
++	if (!s || !*s)
++		return;
++
+ 	std::string str = s;
+ 	std::string sinsert;
+ 	if (str[str.length() - 1] == '|') str.erase(str.length() - 1, 1);

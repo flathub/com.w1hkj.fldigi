@@ -57,6 +57,8 @@ modules:
           type: anitya
           project-id: 818
           url-template: https://www.w1hkj.org/files/fldigi/fldigi-$version.tar.gz
+      - type: patch
+        path: fldigi-combobox-empty-entry.patch
   - name: metainfo
     buildsystem: simple
     build-commands:
