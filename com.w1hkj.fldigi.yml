@@ -38,7 +38,7 @@ modules:
         x-checker-data:
           type: anitya
           project-id: 10597
-          url-template: http://files.portaudio.com/archives/pa_stable_v$version.tgz
+          url-template: https://github.com/PortAudio/portaudio/archive/refs/tags/v$version.tar.gz
   - name: hamlib
     sources:
       - type: archive
